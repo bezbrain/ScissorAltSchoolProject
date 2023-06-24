@@ -1,0 +1,199 @@
+.price-perfect-sect {
+  /* border: 2px solid green; */
+  text-align: center;
+}
+
+.top-sect {
+  width: 400px;
+  margin: 0px auto;
+}
+@media screen and (max-width: 500px) {
+  .top-sect {
+    width: 95%;
+  }
+}
+
+.top-sect h2 span {
+  color: var(--darkblue);
+}
+
+.top-sect p {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.all-plan-con {
+  /* border: 2px solid red; */
+  width: 800px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.each-plan {
+  border: 2px solid #bdd3f5;
+  padding: 20px;
+  line-height: 0.9cm;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: ease 0.5s all;
+  width: 32%;
+}
+.each-plan:hover {
+  background-color: #1e3448;
+  color: #fff;
+}
+@media screen and (max-width: 960px) {
+  .all-plan-con {
+    width: 95%;
+    margin-block: 20px 10px;
+  }
+  .each-plan {
+    padding: 2vw;
+    line-height: 0.6cm;
+  }
+  .each-plan h3,
+  .each-plan h2,
+  .each-plan > p {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 745px) {
+  .all-plan-con {
+    /* border: 2px solid red; */
+    flex-direction: column;
+  }
+  .each-plan {
+    width: 80%;
+    margin: 10px auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .each-plan {
+    width: 100%;
+  }
+}
+
+.all-plan-con > div div {
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+}
+
+.all-plan-con img {
+  width: 10px;
+  height: 10px;
+}
+
+.all-plan-con > div div p {
+  /* border: 2px solid green; */
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.custom-price-btn {
+  background-color: inherit;
+  border: 2px solid var(--darkblue);
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  color: var(--darkblue);
+  margin: 5px;
+}
+
+.select-price-btn {
+  background-color: var(--darkblue);
+  border: none;
+  padding: 8px 30px;
+  font-size: 16px;
+  border-radius: 20px;
+  color: #fff;
+  margin: 5px;
+}
+@media screen and (max-width: 745px) {
+  .custom-price-btn,
+  .select-price-btn {
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+  .select-price-btn {
+    border: 2px solid var(--darkblue);
+  }
+}
+
+/* ================ */
+/* Posting URLs CSS */
+.post-url-sect {
+  background-color: #1f3549;
+  margin-top: 4rem;
+  color: var(--darkblue);
+  padding-block: 4rem;
+  text-align: center;
+}
+
+.post-url-sect form {
+  background-color: #fff;
+  width: 350px;
+  margin: 0px auto;
+  padding: 20px 30px 40px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 450px) {
+  .post-url-sect form {
+    width: 95%;
+  }
+}
+
+.post-url-sect form > input {
+  width: 100%;
+  padding-left: 10px;
+  height: 40px;
+  border: 2px solid var(--darkblue);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.post-url-sect form > input::placeholder {
+  color: var(--darkblue);
+}
+
+.post-url-sect form > input:focus {
+  outline: 3px solid var(--darkblue);
+}
+
+.select-domain-con select,
+.select-domain-con input {
+  width: 49%;
+  padding-left: 10px;
+  height: 40px;
+  border: 2px solid var(--darkblue);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.select-domain-con input::placeholder,
+.select-domain-con select {
+  color: var(--darkblue);
+}
+
+.select-domain-con input:focus,
+.select-domain-con select:focus {
+  outline: 3px solid var(--darkblue);
+}
+
+.trim-url-con {
+  width: 100%;
+  background-color: var(--darkblue);
+  color: #fff;
+  border: none;
+  padding-block: 10px;
+  border-radius: 30px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.post-url-sect form p {
+  text-align: left;
+  font-size: 13px;
+}

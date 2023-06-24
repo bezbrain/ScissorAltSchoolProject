@@ -1,0 +1,148 @@
+.one-stop-sect {
+  /* border: 2px solid red; */
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.one-stop-title-con {
+  /* border: 2px solid green; */
+  width: 25%;
+  font-size: 20px;
+}
+
+.one-stop-title-con p span {
+  color: var(--darkblue);
+}
+
+.values-con {
+  /* border: 2px solid black; */
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.values-con p {
+  /* border: 2px solid red; */
+  font-size: 14px;
+}
+
+.active-user-con {
+  width: 15%;
+}
+.links-con {
+  width: 28%;
+}
+.clicked-con {
+  width: 28%;
+}
+.app-con {
+  width: 18%;
+}
+@media screen and (max-width: 960px) {
+  .one-stop-sect {
+    width: 95%;
+    flex-direction: column;
+  }
+  .one-stop-title-con {
+    /* border: 2px solid green; */
+    width: 100%;
+  }
+  .values-con {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .values-con {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .values-con div {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+/* ======================= */
+/* Why choose Scissors CSS */
+.why-choose-scissors-sect {
+  /* border: 2px solid red; */
+  width: 800px;
+  margin: 8rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.why-choose-title-con {
+  width: 30%;
+}
+
+.why-choose-title-con h2 span {
+  color: var(--darkblue);
+}
+
+.why-choose-title-con p {
+  font-size: 13px;
+  margin-top: 10px;
+  line-height: 0.5cm;
+}
+
+.details-con {
+  width: 65%;
+}
+@media screen and (max-width: 960px) {
+  .why-choose-scissors-sect {
+    /* border: 2px solid red; */
+    width: 95%;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+  .why-choose-title-con {
+    width: 80%;
+  }
+  .details-con {
+    /* border: 2px solid green; */
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .why-choose-title-con {
+    width: 100%;
+  }
+}
+
+.first-detail-sect,
+.second-details-sect {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-details-sect {
+  margin-top: 3rem;
+}
+
+.first-detail-sect img,
+.second-details-sect img {
+  width: 40px;
+  margin-bottom: 20px;
+}
+
+.why-choose-details-con {
+  /* border: 2px solid red; */
+  width: 47%;
+}
+@media screen and (max-width: 500px) {
+  .first-detail-sect,
+  .second-details-sect {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .why-choose-details-con {
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 30px;
+  }
+}

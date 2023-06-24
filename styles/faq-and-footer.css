@@ -1,0 +1,133 @@
+.faq-sect {
+  /* border: 2px solid red; */
+  width: 500px;
+  margin: 30px auto;
+}
+@media screen and (max-width: 600px) {
+  .faq-sect {
+    width: 95%;
+  }
+}
+
+.faq-sect h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.each-faq-con {
+  width: 95%;
+  margin-top: 30px;
+}
+
+.faq-content-con {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.faq-content-con p:first-child {
+  /* border: 2px solid red; */
+  width: 95%;
+}
+
+.faq-content-con p:last-child {
+  font-size: 30px;
+}
+
+.each-faq-con > p {
+  /* border: 2px solid red; */
+  margin-top: 10px;
+}
+
+.add-open-close {
+  display: block !important;
+}
+
+/* =============== */
+/* Pre Footer CSS */
+.pre-footer-sect {
+  background-color: #1f3549;
+  padding-block: 4rem 2rem;
+  color: #fff;
+  text-align: center;
+  margin-block: 5rem 3rem;
+}
+
+.pre-footer-sect button {
+  margin-top: 20px;
+  background-color: var(--darkblue);
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* =============== */
+/* Footer Section */
+.footer-section {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: 0px auto 4rem;
+}
+@media screen and (max-width: 960px) {
+  .footer-section {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .footer-section {
+    flex-direction: column;
+  }
+  .footer-con {
+    margin-top: 30px;
+  }
+}
+
+.scissor-con {
+  /* border: 2px solid green; */
+  width: 15%;
+}
+
+.scissor-con img {
+  width: 100px;
+}
+
+.footer-content-con {
+  width: 80%;
+}
+
+.footer-con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lower-footer-sect {
+  /* border: 2px solid red; */
+  width: 75%;
+}
+
+.footer-con div {
+  /* border: 2px solid yellow; */
+  width: 23%;
+  font-size: 12px;
+  line-height: 0.7cm;
+}
+
+.lower-footer-sect div {
+  width: 30%;
+}
+
+.footer-con div h3 {
+  font-size: 18px;
+}
+@media screen and (max-width: 700px) {
+  .footer-content-con {
+    width: 100%;
+  }
+}

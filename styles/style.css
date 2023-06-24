@@ -1,0 +1,230 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+
+:root {
+  --lightblue: #7daff4;
+  --darkblue: #0065fe;
+  --bgcolor: #f5f5e7;
+  --bgimgcolor: #fdfcfc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy-bold;
+}
+
+.header-and-hero {
+  background-color: var(--bgcolor);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+@media screen and (min-width: 1500px) {
+  header {
+    width: 1200px;
+    margin: 0px auto;
+  }
+}
+
+.open-icon {
+  width: 25px;
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  .open-icon {
+    display: block;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+  }
+}
+
+.close-icon {
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  .close-icon {
+    display: block;
+    width: 25px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+}
+
+.logo-con {
+  width: 20%;
+  /* border: 2px solid red; */
+}
+@media screen and (max-width: 960px) {
+  .logo-con {
+    width: 100%;
+  }
+  .logo-con img {
+    width: 100px;
+  }
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  /* border: 2px solid red; */
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 960px) {
+  nav {
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    position: fixed;
+    right: -400px;
+    top: 0;
+    height: 100vh;
+    background-color: #ecfafd;
+    transition: ease 1s all;
+  }
+  nav ul {
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    flex-direction: column;
+  }
+}
+
+nav ul:nth-child(2) {
+  /* border: 2px solid red; */
+  width: 60%;
+}
+
+nav ul:last-child {
+  /* border: 2px solid green; */
+  width: 25%;
+}
+@media screen and (max-width: 960px) {
+  nav ul:nth-child(2) {
+    width: 100%;
+    line-height: 1.2cm;
+    margin-top: 4rem;
+  }
+  nav ul:last-child {
+    width: 100%;
+    line-height: 1.2cm;
+  }
+}
+
+nav ul li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+nav ul li:first-child {
+  color: var(--lightblue);
+  font-weight: 700;
+}
+
+ul li button {
+  background-color: var(--darkblue);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* ========== */
+/* Hero CSS */
+.hero-con {
+  /* text-align: center; */
+  padding-inline: 20px;
+}
+
+.hero-content-con {
+  /* border: 2px solid red; */
+  max-width: 700px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.hero-content-con h2 {
+  line-height: 1.2cm;
+  margin-bottom: 20px;
+}
+
+.hero-content-con h2 span {
+  color: var(--darkblue);
+}
+
+.hero-content-con p {
+  line-height: 0.7cm;
+  margin-bottom: 40px;
+}
+
+.sign-up-btn {
+  background-color: var(--darkblue);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.hero-content-con span {
+  color: var(--darkblue);
+  margin: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-content-con h2 {
+    line-height: 0.8cm;
+  }
+  .hero-content-con p {
+    margin-bottom: 20px;
+  }
+  .sign-up-btn {
+    margin: 5px;
+    padding-block: 5px;
+  }
+  .hero-content-con span {
+    margin: 5px;
+  }
+}
+
+.img-con {
+  /* border: 2px solid green; */
+  width: 650px;
+  margin-inline: auto;
+}
+
+.img-con img {
+  width: 100%;
+}
+
+.hero-img-con {
+  width: 100%;
+}
+
+.hero-img-con img {
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .img-con {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .img-con {
+    width: 95%;
+  }
+}
