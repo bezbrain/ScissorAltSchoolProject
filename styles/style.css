@@ -15,7 +15,7 @@
 }
 
 .header-and-hero {
-  background-color: var(--bgcolor);
+  background: linear-gradient(to bottom, var(--bgcolor), #fff);
 }
 
 header {
